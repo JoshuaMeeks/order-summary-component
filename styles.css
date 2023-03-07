@@ -69,11 +69,13 @@ p {
 }
 
 .plan-container > a {
+  color: hsl(223, 47%, 23%);
   font-weight: 900;
   margin-left: 1em;
 }
 
 .payment-btn {
+  cursor: pointer;
   min-width: 270px;
   height: 50px;
   background-color: hsl(245, 75%, 52%);
@@ -87,6 +89,7 @@ p {
 }
 
 .cancel-btn {
+  cursor: pointer;
   width: 270px;
   height: 50px;
   border: none;
