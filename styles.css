@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Red Hat Display', sans-serif;
+  /* border: solid red 1px; */
 }
 
 html, body {
@@ -24,6 +25,11 @@ main {
   background-color: hsl(0, 0%, 100%);
 }
 
+.card-information {
+  text-align: center;
+  padding: 1.6em;
+}
+
 .hero-image {
   width: 325px;
   border-radius: 25px 25px 0 0;
@@ -31,10 +37,38 @@ main {
 
 h1 {
   color: hsl(223, 47%, 23%);
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 900;
+  margin-bottom: .6em;
 }
 
 p {
   color: hsl(224, 23%, 55%);
+  line-height: 24px;
+  margin-bottom: 1.6em;
 }
+
+.plan-container {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  height: 80px;
+  border-radius: 15px;
+  padding: 1.2em;
+}
+
+.plan-period-text {
+  font-weight: 900;
+  line-height: 24px;
+}
+
+.plan-pricing-text {
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-container > a {
+  font-weight: 900;
+  margin-left: 1em;
+}
+
