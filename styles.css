@@ -74,7 +74,7 @@ p {
 }
 
 .payment-btn {
-  width: 270px;
+  min-width: 270px;
   height: 50px;
   background-color: hsl(245, 75%, 52%);
   color: hsl(0, 0%, 100%);
@@ -94,5 +94,28 @@ p {
   font-size: 14px;
   font-weight: 900;
   color: hsl(224, 23%, 55%);
+}
+
+@media (min-width: 500px) {
+  .card {
+    width: 375px;
+  }
+
+  .hero-image {
+    width: 375px;
+  }
+
+  .card-information {
+    padding: 1.8em 2.4em 1.8em 2.4em;
+  }
+
+  .plan-container {
+    margin-bottom: 1.8em;
+  }
+
+  .payment-btn {
+    width: 300px;
+    margin-bottom: .6em;
+  }
 }
 
