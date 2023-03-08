@@ -6,6 +6,12 @@
   /* border: solid red 1px; */
 }
 
+body {
+  background-image: url();
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 main {
   display: flex;
   justify-content: center;
