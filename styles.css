@@ -15,7 +15,7 @@ main {
 }
 
 .card {
-  width: 325px;
+  max-width: 27em;
   border-radius: 25px;
   background-color: hsl(0, 0%, 100%);
 }
@@ -95,25 +95,7 @@ p {
 }
 
 @media (min-width: 500px) {
-  .card {
-    width: 375px;
-  }
-
-  .hero-image {
-    width: 375px;
-  }
-
-  .card-information {
-    padding: 1.8em 2.4em 1.8em 2.4em;
-  }
-
-  .plan-container {
-    margin-bottom: 1.8em;
-  }
-
-  .payment-btn {
-    width: 300px;
-    margin-bottom: .6em;
+  body {
+    background-image: url(images/pattern-background-desktop.svg);
   }
 }
-
